@@ -12,15 +12,7 @@
 
 #### El proyecto trata sobre la visualizacion de datos de partidos de tenis.
 
-    - Aun no he definido el objetivo del proyecto y sobre que realizar las visualizaciones
-    
-    - Algunas ideas:
-        - Mostrar los tenistas que han ganado o perdidos mas partidos/torneos
-        - Jugadores con mas aces
-        - Jugadores con mas primeros saques ganados
-        - Quizas buscar algunas correlaciones de las estadisticas( primeros saques ganados - partidos ganados)
-        
-
+    - El objetivo es visualizar las estadisticas de los jugadores y de los torneos.
 
 ## Dataset
 
@@ -32,17 +24,25 @@
     2- En el segundo tenemos las estadisticas de dichos partidos.
         - La hora del partido, el tiempo que ha durado, aces, faltas dobles, puntos ganados, break points,
 
-    Mas informacion sobre el dataset en el notebook.
     
 ## Workflow
 
-    1- En primer lugar limpiare los datos, quitare algunas columnas con enlaces que no aportan informacion
+#### Visualizacion de los datos de 2017
+    1- Numero de partidos que tiene cada torneo
     
+    2- Torneos ganados por cada tenista
+    
+    3- Veces que un jugador ha llegado a la final
+    
+    4- Partidos ganados de cada tenista
+    
+    5- Nombres de los torneos ganados de cada tenista
+    
+    6- Heatmap de las correlaciones entre las diferentes estadisticas de un partido
+   
+    7- Sets, juegos ganados y perdidos, numero de aces, primeros saques acertados,  
+        (En un futuro incluir mas estadisticas)
 
-
-
-
-## Results
 
 
 
